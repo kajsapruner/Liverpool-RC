@@ -8,5 +8,4 @@ and we decided to meet every tuesday at 1:30 until about 4pm, depending on how m
 but this will be decided the week of since we all have busy schedules. I also helped to find screws to the new wheels that we got for our robot to we could attach them.
 
 Reagan Graff
-This week I researched the Jetson Orin Nano. I got a new hard drive, and was able to flash the newest OS onto it. I was able to set up to system so we can use it moving forward.
-I also got the wheel driver code off the pico and was able to modify the main loop to make the robot move forwards and backwards. 
+This week, I researched the Jetson Orin Nano and installed a new hard drive, successfully flashing the latest OS onto it. I also set up the system for future use. Additionally, I retrieved the wheel driver code from the Pico and modified the main loop to enable the robot to move forward and backward.
