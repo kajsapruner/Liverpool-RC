@@ -10,10 +10,14 @@ but this will be decided the week of since we all have busy schedules. I also he
 Reagan Graff
 
 This week:
-I researched the Jetson Orin Nano and collaborated with a team member from another group to install Jetpack 6.0 on a new hard drive. I also installed jtop, which lets us monitor information and stats on the Jetson. I spent some time experimenting with the new Jetson to become more familiar with the software. Additionally, I retrieved the wheel driver code from the Pico and modified the main loop to enable the robot to move forward and backward.
+I researched the Jetson Orin Nano and collaborated with a team member from another group to install Jetpack 6.0 on a new hard drive. I also installed jtop, which lets us monitor information and 
+stats on the Jetson. I spent some time experimenting with the new Jetson to become more familiar with the software. Additionally, I retrieved the wheel driver code from the Pico and modified the
+main loop to enable the robot to move forward and backward.
 
 Goals:
-My goals for the upcoming week are to finalize the Pico program and upload it to the robot. This will enable us to verify that the wheel driver program is functioning correctly. From there, we can adjust the robot's wheels to ensure they are synchronized and move straight. Calibrating the speeds with the new wheels is crucial, as it will allow us to proceed to the next step of integrating the Jetson into the robot.
+My goals for the upcoming week are to finalize the Pico program and upload it to the robot. This will enable us to verify that the wheel driver program is functioning correctly. From there, we 
+can adjust the robot's wheels to ensure they are synchronized and move straight. Calibrating the speeds with the new wheels is crucial, as it will allow us to proceed to the next step of 
+integrating the Jetson into the robot.
 
 
 
