@@ -25,8 +25,8 @@ class WheelDriver:
 
 if __name__ == '__main__':
     # Initialize both wheels
-    left_wheel = WheelDriver(dir_pin=7, pwm_pin=6, slp_pin=8)
-    right_wheel = WheelDriver(dir_pin=9, pwm_pin=10, slp_pin=11)
+    right_wheel = WheelDriver(dir_pin=7, pwm_pin=6, slp_pin=8)
+    left_wheel = WheelDriver(dir_pin=3, pwm_pin=2, slp_pin=4)
 
     # Move forward
     left_wheel.forward(0.5)
