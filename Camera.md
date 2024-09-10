@@ -12,14 +12,14 @@ Since the logitech camera uses a normal USB port we will need v4l2 so that the J
 ## OpenCV
 Will allow us to process the camera´s video feed, can capture frames from USB cameras (like Logitech) and has a number of computer 
 vision libraries to help with object detection and image filtering for example.
-Commands:
+- Commands:
 -     sudo apt-get update
 -     sudo apt-get install python3-opencv
 
 ## GStreamer
 Often used on Jetson boards to support the use of hardware-accelerated video encoding/decoding and is compitable
 with OpenCV (might not be neccesary but good to have?????)
-Commands:
+- Commands:
 -     sudo apt-get install gstreamer1.0-tools
 -     sudo apt-get install gstreamer1.0-plugins-base gstreamer1.0-plugins-good
 
