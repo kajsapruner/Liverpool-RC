@@ -1,4 +1,4 @@
-from pico_controller import PicoController
+from autonomous_controller import PicoController
 from time import sleep_ms
 
 # SETUP - Initialize the Pico controller with the appropriate pin configuration
