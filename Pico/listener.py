@@ -1,15 +1,14 @@
-import sys
-from motor_driver import Virgil
+from pico_controller import PicoController
 from time import sleep_ms
 
-# SETUP
-virgil = Virgil(
+# SETUP - Initialize the Pico controller with the appropriate pin configuration
+virgil = PicoController(
     left_enc_a=14, left_enc_b=15, left_dir_pin=3, left_pwm_pin=2, left_slp_pin=4,
     right_enc_a=12, right_enc_b=13, right_dir_pin=7, right_pwm_pin=6, right_slp_pin=8,
     wheel_radius=0.06, encoder_resolution=400
 )
 
-# LOOP
+# LOOP - Listen for commands
 while True:
     buffer = input().strip()  # Blocking call for user input
     if buffer:
@@ -19,7 +18,7 @@ while True:
             cmd, value = buffer.split(',')
             value = int(value)
             if cmd == "FORWARD":
-                virgil.move_forward(value / 100)
+                virgil.move_forward(value / 100)  # Scale speed to percentage
             elif cmd == "BACKWARD":
                 virgil.move_backward(value / 100)
             elif cmd == "LEFT":
@@ -31,7 +30,7 @@ while True:
             else:
                 print("Unknown command!")
         except ValueError:
-            print("Invalid command format!")
+            print("Invalid command format! Correct format: COMMAND,value (e.g., FORWARD,50)")
 
     # Optional delay to prevent high CPU usage
     sleep_ms(10)
